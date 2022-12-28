@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>BAppartment</title>
+</head>
+
+<body>
+  <!-- menu  -->
+  <header>
+    <menu class="menu">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="./img/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#Appartment">Appartment</a>
+              <a class="nav-link" href="#Services">Services</a>
+              <a class="nav-link" href="#Contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </menu>
+  </header>
+
+  <!-- Hero -->
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">BAppartment</h1>
+      <h2 class="hero-subtitle">Your home</h2>
+      <button class="hero-button">Saber mas</button>
+    </div>
+  </section>
+
+  <!-- Carrousel -->
+
+  <div class="carrousel-title" id="Appartment">
+    <h2>
+      See the appartment
+    </h2>
+  </div>
+  <section class="carrousel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 1"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/entrance.jpg" class="d-block w-100 carrousel-img-size" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Building</h5>
+            <p>Security camara</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/bedroom.jpg" class="d-block w-100 carrousel-img-size" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bedroom</h5>
+            <p>Confortable somier</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/kitchen.jpg" class="d-block w-100 carrousel-img-size" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kitchen</h5>
+            <p>Well equiped</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/bathroom.jpg" class="d-block w-100 carrousel-img-size" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bathroom</h5>
+            <p>Confortable space to relax</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/balcony.jpg" class="d-block w-100 carrousel-img-size" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Balcony</h5>
+            <p>Special landscape to enjoy the city</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </section>
+
+  <!-- Cards -->
+
+  <div class="cards-title" id="Services">
+    <h2>
+      Optional services
+    </h2>
+  </div>
+
+  <section class="cards">
+    <div class="card" style="width: 18rem;">
+      <img src="./img/car.jpg" class="card-img-top img-size" alt="...">
+      <div class="card-body">
+        <h3>Pick up</h1>
+          <p class="card-text">Pick you up at the airport and bring you to the appartment.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/tour.jpg" class="card-img-top img-size" alt="...">
+      <div class="card-body">
+        <h3>PCity Tour</h1>
+          <p class="card-text">Personal guide toure arround the city.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/cleaning.jpg" class="card-img-top img-size" alt="...">
+      <div class="card-body">
+        <h3>Cleaning</h1>
+          <p class="card-text">Cleaning service acording to your needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <div class="footer-title" id="Contact">
+    <h2>
+      Contact
+    </h2>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container text-center footer-boxes">
+        <div class="row footer-box">
+          <div class="col footer-box-res">
+
+            <div class="footer-contact">
+              <div class="footer-contact-img">
+              </div>
+              <div class="footer-contact-text">
+                <div class="footer-contact-title">
+                  Contact us
+                </div>
+                <form action="https://formsubmit.co/natalia.rodriguez1@bue.edu.ar" method="POST">
+                  <div class="footer-form">
+                    <label for="name">Name </label>
+                    <input type="text">
+                  </div>
+                  <div class="footer-form">
+                    <label for="email">Email </label>
+                    <input type="email" name="email">
+                  </div>
+                  <div class="footer-form">
+                    <label for="coment">Coments </label>
+                    <textarea name="coments" id="" cols="30" rows="10"></textarea>
+                  </div>
+                  <div class="footer-form">
+                    <input type="submit" value="Send">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col footer-boxes">
+            <div class="footer-map">
+              Map
+            </div>
+            <div class="footer-map-box footer-box-res">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26280.077114152904!2d-58.441229144262145!3d-34.57862264952552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1672172472223!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="footer-media">
+            <img class="footer-media-img" src="./img/instagram.png" alt="">
+            <img class="footer-media-img" src="./img/wp.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
